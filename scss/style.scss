@@ -1,16 +1,11 @@
-@import "./utilities/funciones";
-@import "./utilities/mapas";
-@import "./utilities/mixin";
-@import "./utilities/variables";
+@import "./pages/home";
 
 @import "./base/reset";
 @import "./base/tipografias";
 
-@import "./components/boostrap";
+@import "./components/buttons";
+@import "./components/footer";
+@import "./components/header";
 
-@import "./layout/footer";
-@import "./layout/header";
-@import "./layout/main";
-@import "./layout/mediaQ/mediadest";
-@import "./layout/mediaQ/mediamobi";
-@import "./layout/mediaQ/mediatab";
+@import "./layout/grid";
+@import "./layout/mediaQ";

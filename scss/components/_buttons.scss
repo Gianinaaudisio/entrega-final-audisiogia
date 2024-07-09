@@ -1,0 +1,19 @@
+/* Estilos de los botones */
+.enviar,
+.botonTienda,
+.contactoboton,
+.ubicacion {
+    background: none;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+}
+
+.contactoboton {
+    max-width: 200px;
+}
+
+.ubicacion {
+    margin-bottom: 10px;
+}

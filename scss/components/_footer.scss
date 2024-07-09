@@ -1,0 +1,57 @@
+/* Estilos del pie de página */
+footer {
+    background-color: rgb(4, 10, 15);
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.25rem;
+    padding: 40px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-family: "Roboto Slab", serif;
+    font-size: 10px;
+}
+
+@media (max-width: 1024px) {
+    footer {
+        padding: 15px;
+    }
+
+    footer button {
+        padding: 8px 16px;
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 768px) {
+    footer {
+        padding: 10px;
+    }
+
+    footer button {
+        padding: 6px 12px;
+        font-size: 0.8em;
+    }
+
+    footer h4,
+    footer h5 {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 425px) {
+    footer {
+        padding: 5px;
+    }
+
+    footer button {
+        width: 100%;
+        padding: 5px 0;
+        font-size: 0.8em;
+    }
+
+    footer h4,
+    footer h5 {
+        font-size: 0.8em;
+    }
+}

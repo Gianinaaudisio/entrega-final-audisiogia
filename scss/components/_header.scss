@@ -1,0 +1,57 @@
+/* Estilos del encabezado */
+.header {
+    background-color: whitesmoke;
+    color: rgb(4, 10, 15);
+}
+
+.headerindex ul li a {
+    color: rgb(4, 10, 15);
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.headerindex .barra li a:hover {
+    background-color: #bfbfbf;
+    color: #2b1e1e;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Medias Queries */
+@media (max-width: 1024px) {
+    .header {
+        background-color: rgb(157, 156, 156);
+    }
+
+    .headerindex li {
+        margin-right: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .headerindex ul {
+        text-align: center;
+    }
+
+    .headerindex li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 425px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .headerindex li {
+        margin: 5px 0;
+    }
+}

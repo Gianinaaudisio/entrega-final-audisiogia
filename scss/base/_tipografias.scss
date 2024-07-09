@@ -1,0 +1,31 @@
+/* Tipografía */
+$font-primary: "Noto Sans", sans-serif;
+$font-secondary: "Roboto Slab", serif;
+
+body {
+    font-family: $font-primary;
+    background-color: whitesmoke;
+    margin: 0%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    overflow-x: hidden;
+}
+
+h1,
+.shop h2,
+.taproom,
+.somos h2,
+.somos h3,
+.contacto {
+    font-family: $font-primary;
+}
+
+.header,
+.headerindex ul li a,
+.encabezado2,
+.shop p,
+.contacto p {
+    font-family: $font-secondary;
+}
